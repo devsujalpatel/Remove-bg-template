@@ -4,6 +4,7 @@ import ImageUpload from "./image-upload";
 import RemoveBgSteps from "./remove-bg-steps";
 import UseCasesSection from "./use-cases-section";
 import { CompareSection } from "./compare-section";
+import { TestimonialSection } from "./testimonial-section";
 
 const HomePage = () => {
   return (
@@ -12,6 +13,7 @@ const HomePage = () => {
       <RemoveBgSteps />
       <UseCasesSection />
       <CompareSection />
+      <TestimonialSection />
     </div>
   );
 };
