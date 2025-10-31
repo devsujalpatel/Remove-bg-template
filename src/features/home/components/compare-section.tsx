@@ -1,3 +1,4 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
@@ -56,7 +57,9 @@ export const CompareSection = () => {
             Unlimited Creative Options
           </Button>
         </div>
-        <Button className="rounded-full mt-8 text-lg bg-[#BFE831] text-black py-7 px-6">Start Creating</Button>
+        <Button className="rounded-full mt-8 text-lg bg-[#BFE831] text-black py-7 px-6 hover:bg-white hover:border-[#BFE831] hover:border">
+          Start Creating
+        </Button>
       </div>
     </div>
   );
